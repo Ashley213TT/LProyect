@@ -1,0 +1,223 @@
+
+/* Propiedades de contenido de la pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: themillion, sans-serif;
+}
+
+/* Cuerpo de la pagina */
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(16deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #595656;  
+    display: flex;
+    flex-direction: column; 
+    margin: 15px;
+    padding: auto;
+    max-width: 1000vh;
+}
+
+
+/* ENCABEZADO */
+/* Propiedades del encabezado */
+
+.hed{
+ 
+    background:rgb(179 182 222);
+    border-bottom: solid 2px #ddd;
+}
+
+/* Clase para centrar todos loa elementos */
+.wrapper{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* Propiedades del contenedor del encabezado */
+
+.text-box{
+    color: #ffffff;
+    font-size: 14px;
+    max-width: 500px;
+    height: 250px;
+    float: left;
+}
+
+/* Propiedades del titulo del encabezado */
+.text-box h1{
+    font-size: 35px;
+    font-family: themillion;
+	color: #db8b9c ;
+    line-height: 90px;
+}
+
+
+/* Propiedades de los botones de enlace (contactos) */
+.links a{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgb(219 139 156);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+
+/* Realce de los botones de enlace (contactos) */
+.links a:hover{
+    color: #4d4f55;
+    background-color: white;
+}
+
+/* Propiedades de la imagen del encabezado */
+.text-box img{
+width: 550px;
+}
+
+
+
+
+
+/* BIOGRAFIA */
+/* Propiedades de la Seccion Biografica */
+.bio{
+    width: 100%;
+    height: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/* Titulo de la seccion biografica */
+.bio h2{
+    font-family: themillion;
+	font-size: 30px;
+	color: #db8b9c ;
+    margin-bottom: 20px;
+}
+
+/* Parrafo de la seccion biografica */
+.bio p{
+    color: white;
+}
+
+/*Lista de la seccion biografica */
+.bio li{
+    color: #fdffff;
+}
+
+.proyect{
+	color: #db8b9c ;
+    font-size: 40px;
+}
+
+/* PROYECTOS REALIZADOS */
+
+/* Cards de la parte de los Proyectos */
+.containerP{
+	
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-left: 10%;
+
+}
+
+/*Propiedades de los Cards*/
+.cards{
+	background: #fff;
+	margin-left: 50px;
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	height: 500px;
+	cursor: default;
+	transition: all 400ms ease;
+	}
+
+    /*Efecto de Sombra de Cards*/
+.cards:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+/*Propiedades de las imagenes*/
+.cards img {
+    width: 100%;
+    height:210px;
+}
+
+.cards .cardsImagen{
+	padding: 20px;
+	text-align: center;
+}
+
+/*Propiedades de texto de las cards*/
+.cards .cardsImagen p{
+line-height: 1.5;
+color:#6a6a6a;
+}
+
+
+.cards .cardsImagen h2{
+	font-family: themillion;
+	font-size: 30px;
+	color: #db8b9c ;
+	margin-top: 15px;
+}
+
+.cards .cardsImagen a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	color: #fdffff;
+	background-color:#db8b9c;
+	border-radius: 6px;
+	box-shadow: 0px 1px 10px rgba(227, 160,143);
+	}
+
+/* Boton de Github */
+/* Efectos del Boton de Github */
+a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 20px;
+    background-color:  rgb(219 139 156);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: rgb(219 139 156);
+}
+
+#github{
+   position: absolute;
+   bottom: 0px;
+    
+    }
+    
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+    
